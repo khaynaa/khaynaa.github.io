@@ -6,6 +6,10 @@ body {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+
+.search_box_container{
+  float: none !important;
+}
 .news_item{
     clear: both;
     display: block;
@@ -59,7 +63,7 @@ body {
 .domain{
     position :absolute;
     width: 100%;
-    color: #fff; 
+    color: #fff;
     bottom : 8px;
 }
 .domain span{
@@ -161,4 +165,3 @@ a:focus, a:hover {
     cursor: pointer;
     padding-left: 44px;
 }
-

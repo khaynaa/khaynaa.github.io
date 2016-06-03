@@ -1,0 +1,164 @@
+body {
+  padding-top: 70px;
+}
+
+.breadcrumb{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.news_item{
+    clear: both;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e3e6;
+}
+.news_item a {
+	color: #3c414e;
+}
+.news_item a:hover{
+	text-decoration: none;
+}
+
+.news_item a:after, .news_item:after {
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    line-height: 0;
+}
+
+
+.news_item_content {
+    margin-left: 110px;
+}
+.news_item_content a:hover{
+    text-decoration: none;
+}
+.news_item_content .news_item_title{
+    font-size: 14px;
+    color: #202531;
+    font-family: "Helvetica Neue",Helvetica, Tahoma,Arial,sans-serif;
+}
+
+.news_item_img {
+    line-height: 0;
+    float: left;
+    max-width: 110px;
+    position: relative;
+}
+
+.news_item_img>img {
+   width : 100;
+   vertical-align: middle;
+}
+.news_item_content img{
+    width: 18px;
+    margin-right: 3px;
+}
+.domain{
+    position :absolute;
+    width: 100%;
+    color: #fff; 
+    bottom : 8px;
+}
+.domain span{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #DB3D43;
+}
+.loader {
+    display: none;
+}
+.loader img{
+    width: 22px;
+}
+.read-more{
+    margin-top: 8px;
+}
+.read-more a{
+    font-size: 12px;
+    color: #DB3D43;
+}
+.red-link{
+    color: #DB3D43;
+}
+.thumbnail .caption{
+    padding : 0px;
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #DB3D43;
+}
+a:focus, a:hover {
+    color: #DB3D43;
+    text-decoration: none;
+}
+
+#words {
+    font-size: 160%;
+    text-align: center;
+    box-sizing: border-box;
+    background: #fff;
+    height: 10ex;
+    overflow: hidden;
+    line-height: 3ex;
+}
+
+#words span{
+    display: inline-block;
+    padding: 0 .25em;
+    position: relative;
+    border-radius: 5px;
+}
+#editor{
+    margin-top: 10px;
+    text-align : center;
+    font-size: 160%;
+}
+.highlight{
+    background-color: #b8e069;
+    color: #fff;
+}
+
+.highlight-wrong{
+    background-color: #DB3D43;
+    color: #fff;
+}
+
+#typing-result{
+    display: none;
+}
+#score span {
+    display: inline-block;
+    min-width: 4ex;
+    font-size: 80%;
+    padding: 2px;
+}
+.restart{
+    text-decoration: underline;
+}
+#progress, #highcpm, #rawcpm, #cpm, #wpm, #timer {
+    text-align: right;
+    background: #fff;
+}
+
+
+.fbbutton {
+    background: #3b5998 url("/assets/img/fb.png") 1ex center no-repeat;
+    color: white !important;
+    text-decoration: none;
+    font-size: 110%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 44px;
+}
+
